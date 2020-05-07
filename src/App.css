@@ -1,0 +1,207 @@
+
+
+.App  {
+  font-family: 'Roboto';
+}
+
+
+button {
+  /* padding-top: 10px;  */
+  /* padding-bottom: 10px;  */
+  /* background-color: rgb(184, 184, 184); */
+  /* box-shadow: 1px 1px 2px 2px gray; */
+  /* transition: 1000ms backround-color; */
+}
+
+button:hover {
+  /* background-color: rgb(141, 141, 141); */
+  /* cursor: pointer; */
+
+}
+
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 75px;
+  width: calc(100vw - 35% - 35%);
+  box-sizing: border-box;
+  padding: 10px;
+  border-bottom: 2px rgb(253, 253, 253) solid;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.header-text-container {
+  font-family: Roboto-Bold;
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+.header-text {
+  font-size: 24px;
+}
+
+.header-sub-text {
+  font-size: 16px;
+
+}
+
+
+/* .sidebar-container:hover {
+  overflow-y: scroll;
+} */
+
+.sidebar-container {
+  position: absolute;
+  left: 40px;
+  top: calc(75px + 10px + 10px + 50px);
+  display: block;
+  width: calc(400px - 20px);
+  height: calc(99vh - 130px - 50px);
+  box-sizing: border-box;
+  padding: 10px;
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  /* border-right: 1px solid gray; */
+}
+
+.sidebar-spacer {
+  position: absolute;
+  left: calc(400px);
+  top: calc(100px);
+  width: 10px;
+  height: calc(100% - 75px );
+  box-sizing: border-box;
+  padding: 7px;
+}
+
+
+.main-container {
+  position: absolute;
+  left: calc(10px + 400px + 10px + 10px);
+  top: calc(75px + 10px + 10px - 25px);
+  width: calc(200vw - 10px - 10px - 300px - 10px);
+  height: calc(99vh - 100px - 10px - 10px - 10px);
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+ 
+.input-header {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: 'Roboto-Medium'
+}
+.input-header:after {
+  /* content: '';
+  display: block;
+  border-bottom: 1px solid black;
+  width:H */
+}
+
+
+.environment-container {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  width: 330px;
+  padding-bottom: 10px;
+}
+.environment-container input {
+  float: right;
+  margin-right: 10px;
+}
+
+
+.environment-container button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dimensions-container {
+  width: 330px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.dimensions-container input {
+  float: right;
+  margin-right: 10px;
+}
+
+.assembly-container {
+  width: 320px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid gray;
+}
+
+.assembly-container input {
+  float: right;
+  margin-right: 10px;
+}
+
+.assembly-container select {
+  float: right;
+  margin-right: 10px;
+  width: 131px;
+}
+
+
+.material-select-container {
+  /* margin: 10px; */
+  border-top: 1px solid gray;
+  /* border-top: 1px solid gray; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
+}
+
+
+
+.material-header {
+  font-family: 'Roboto-Medium';
+  margin-bottom: 5px;
+}
+
+.add-type-button {
+  float: right;
+  margin-top: 10px;
+}
+
+
+.material-header-container {
+  margin-bottom: 5px;
+}
+.remove-btn {
+  float: right;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.default-btn {
+  float: right;
+  margin-right: 5reactpx;
+  margin-left: 10px;
+}
+
+.summary-container {
+  display: none;
+  position: absolute;
+  left: 100px;
+
+}
