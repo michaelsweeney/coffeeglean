@@ -13,13 +13,14 @@ const LineGraph = props => {
 	useEffect(() => {
 		if (props.data && d3Container.current) {
 			const { data } = props;
+			console.log(data)
 			const margins = {
 				t: 100,
 				b: 200,
 				l: 75,
 				r: 50,
 			};
-
+			console.log(data)
 			const plotwidth = width - margins.l - margins.r;
 			const plotheight = height - margins.t - margins.b;
 

@@ -73,8 +73,8 @@ const CompiledOutput = props => {
 	}
 
 	let timearray = generatePoints(uassembly)
-	let cardboardarray = generatePoints(1.0)
-	let styrofoamarray = generatePoints(0.8)
+	let cardboardarray = generatePoints(2.5)
+	let styrofoamarray = generatePoints(1.5)
 
 	console.log([timearray, cardboardarray, styrofoamarray])
 
